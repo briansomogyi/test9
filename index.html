@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forum Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold">Web Science Forum</div>
+            <nav class="space-x-4">
+                <a href="#" class="text-blue-500">Home</a>
+                <a href="#" class="text-blue-500">News Feed</a>
+                <a href="#" class="text-blue-500">Answer</a>
+                <a href="#" class="text-blue-500">Spaces</a>
+                <a href="#" class="text-blue-500">About</a>
+                <a href="#" class="text-blue-500">Account</a>
+                <a href="#" class="text-blue-500">Contact</a>
+                <a href="#" class="text-blue-500">Ask a question</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row">
+        <!-- Sidebar -->
+        <aside class="w-full md:w-1/4 bg-white shadow p-4 mb-4 md:mb-0">
+            <h2 class="font-bold mb-4">Add a space</h2>
+            <ul>
+                <li class="mb-2"><a href="#" class="text-blue-500">Item One</a></li>
+                <li class="mb-2"><a href="#" class="text-blue-500">Item Two</a></li>
+                <li class="mb-2"><a href="#" class="text-blue-500">Item Three</a></li>
+            </ul>
+        </aside>
+
+        <!-- Posts -->
+        <main class="w-full md:w-3/4 md:ml-4">
+            <div class="bg-white shadow p-4 mb-4">
+                <h2 class="font-bold mb-2">John Doe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="bg-white shadow p-4">
+                <h2 class="font-bold mb-2">Jane Doe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
